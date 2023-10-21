@@ -15,7 +15,7 @@
 
 # Dependencies
 
-This plugin depends on common POSIX utilities (awk, grep, sed, etc.), Bash, Git, and Go. If you have a Go toolchain installed and selected via asdf (asdf current golang), it will be used to retrieve and build protoc-gen-connect-go. Otherwise, asdf will be used to retrieve the latest Go version and that will be used for the build.
+This plugin depends on common POSIX utilities (awk, grep, sed, etc.), Bash, Git, and Go. If you have a Go toolchain installed and selected via asdf (asdf current golang), it will be used to retrieve and build sqlc. Otherwise, asdf will be used to retrieve the latest Go version and that will be used for the build.
 
 # Install
 
