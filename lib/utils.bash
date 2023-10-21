@@ -5,7 +5,7 @@ set -euo pipefail
 GO_PACKAGE="github.com/sqlc-dev/sqlc/cmd/sqlc"
 GH_REPO="https://github.com/sqlc-dev/sqlc"
 TOOL_NAME="sqlc"
-TOOL_TEST="sqlc --version"
+TOOL_TEST="sqlc --help"
 
 fail() {
 	echo -e "asdf-$TOOL_NAME: $*"
