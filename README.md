@@ -40,7 +40,7 @@ asdf install sqlc latest
 asdf global sqlc latest
 
 # Now sqlc commands are available
-sqlc --version
+sqlc --help
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
